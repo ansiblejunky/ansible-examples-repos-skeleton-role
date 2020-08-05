@@ -1,0 +1,44 @@
+---
+# roles/{{ role_name }}/meta/main.yml
+
+dependencies:
+
+#  - role: cjsteel.resources
+#    resources_on_local : '{{ '{{' }} {{ role_name }}_resources_on_local {{ '}}' }}'
+#    resources_on_remote: '{{ '{{' }} {{ role_name }}_resources_on_remote {{ '}}' }}'
+
+#  - role: acemenu
+
+galaxy_info:
+  author: 'John Wadleigh'
+  description: '{{ role_name }} is used to...'
+  company: 'Red Hat'
+  license: MIT
+  min_ansible_version: '2.7'
+
+  platforms:
+    - name: EL
+      versions:
+        - 5
+        - 6
+        - 7
+    - name: Ubuntu
+      versions:
+        - bionic
+        - precise
+        - trusty
+        - xenial
+    - name: Debian
+      versions:
+        - jessie
+        - squeeze
+        - stretch
+        - wheezy
+
+  galaxy_tags:
+    - {{ role_name }}
+    - windows
+    - centos
+    - debian
+    - ubuntu
+

@@ -1,0 +1,13 @@
+# temp files
+*~
+.swp
+
+# others
+*.log
+.retry
+.private
+.prv
+vagrant.retry
+.vagrant
+.vault
+generated_inventory
